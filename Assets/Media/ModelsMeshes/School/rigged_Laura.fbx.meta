@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: b9106d82c0a00824088e51a41e20e575
+timeCreated: 1470855605
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: c_chest
+    100002: c_hip
+    100004: c_neck
+    100006: c_torso
+    100008: hipCTRL
+    100010: joint4
+    100012: joint5
+    100014: joint6
+    100016: l_ankle
+    100018: l_arm1
+    100020: l_arm2
+    100022: l_arm3
+    100024: l_arm_ikHandle1
+    100026: l_armCTRL
+    100028: l_armFK1
+    100030: l_armIK1
+    100032: l_armIK2
+    100034: l_clavice
+    100036: l_fkCTRL1
+    100038: l_hip
+    100040: l_knee
+    100042: l_LegikHandle
+    100044: l_rib
+    100046: l_thigh
+    100048: LauraMesh
+    100050: LauraRig
+    100052: polySurface4
+    100054: polySurface5
+    100056: r_ankle
+    100058: r_arm1
+    100060: r_arm2
+    100062: r_arm3
+    100064: r_arm_ikHandle1
+    100066: r_armCTRL
+    100068: r_armFK1
+    100070: r_armIK1
+    100072: r_armIK2
+    100074: r_clavice
+    100076: r_fkCTRL1
+    100078: r_footCTRL
+    100080: r_footCTRL1
+    100082: r_hip
+    100084: r_knee
+    100086: r_LegikHandle
+    100088: r_rib
+    100090: r_thigh
+    100092: //RootNode
+    100094: spineCTRL
+    400000: c_chest
+    400002: c_hip
+    400004: c_neck
+    400006: c_torso
+    400008: hipCTRL
+    400010: joint4
+    400012: joint5
+    400014: joint6
+    400016: l_ankle
+    400018: l_arm1
+    400020: l_arm2
+    400022: l_arm3
+    400024: l_arm_ikHandle1
+    400026: l_armCTRL
+    400028: l_armFK1
+    400030: l_armIK1
+    400032: l_armIK2
+    400034: l_clavice
+    400036: l_fkCTRL1
+    400038: l_hip
+    400040: l_knee
+    400042: l_LegikHandle
+    400044: l_rib
+    400046: l_thigh
+    400048: LauraMesh
+    400050: LauraRig
+    400052: polySurface4
+    400054: polySurface5
+    400056: r_ankle
+    400058: r_arm1
+    400060: r_arm2
+    400062: r_arm3
+    400064: r_arm_ikHandle1
+    400066: r_armCTRL
+    400068: r_armFK1
+    400070: r_armIK1
+    400072: r_armIK2
+    400074: r_clavice
+    400076: r_fkCTRL1
+    400078: r_footCTRL
+    400080: r_footCTRL1
+    400082: r_hip
+    400084: r_knee
+    400086: r_LegikHandle
+    400088: r_rib
+    400090: r_thigh
+    400092: //RootNode
+    400094: spineCTRL
+    4300000: polySurface5
+    4300002: polySurface4
+    9500000: //RootNode
+    13700000: polySurface4
+    13700002: polySurface5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

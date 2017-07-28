@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+	<question quest="How did Laura Searing become deaf?" ans = "3" type="xs:integer">
+		<c num = "1" type="xs:integer">She fell out of a carriage and hit her head.</c>
+		<c num = "2" type="xs:integer">She accidentally put a rock in her ear.</c>
+		<c num = "3" type="xs:integer">She was sick with meningitis.</c>
+		<c num = "4" type="xs:integer">She was born deaf.</c>
+	</question>
+	<question quest="According to the story, Laura didn’t go to regular school when she was young because:" ans = "2" type="xs:integer">
+		<c num = "1" type="xs:integer">She didn’t like school.</c>
+		<c num = "2" type="xs:integer">The teachers said they couldn’t teach a deaf child.</c>
+		<c num = "3" type="xs:integer">There was no school in her town.</c>
+		<c num = "4" type="xs:integer">She had to work on the farm.</c>
+	</question>
+	<question quest="Laura was overwhelmed when she first arrived at the Missouri School for the Deaf because:" ans = "1" type="xs:integer">
+		<c num = "1" type="xs:integer">Laura didn’t know much sign language.</c>
+		<c num = "2" type="xs:integer">Laura wasn’t very smart.</c>
+		<c num = "3" type="xs:integer">Laura didn’t like reading and writing.</c>
+		<c num = "4" type="xs:integer">Laura missed her pets.</c>
+	</question>
+	<question quest="What does the term “feel at home” mean?" ans = "2" type="xs:integer">
+		<c num = "1" type="xs:integer">When people feel like they have to clean a building like at home.</c>
+		<c num = "2" type="xs:integer">When people feel comfortable like being at home.</c>
+		<c num = "3" type="xs:integer">When people feel tired and they want to go to sleep like at home.</c>
+		<c num = "4" type="xs:integer">When people are actually at home.</c>
+	</question>
+	<question quest="Traveling from Maryland to Missouri in 1840s was ________ it would be today." ans = "2" type="xs:integer">
+		<c num = "1" type="xs:integer">faster than</c>
+		<c num = "2" type="xs:integer">slower than</c>
+		<c num = "3" type="xs:integer">the same as</c>
+		<c num = "4" type="xs:integer">twice as fast as</c>
+	</question>
+	<question quest="According to the story, Laura communicated with hearing people by" ans = "2" type="xs:integer">
+		<c num = "1" type="xs:integer">speaking via sign language</c>
+		<c num = "2" type="xs:integer">writing on paper</c>
+		<c num = "3" type="xs:integer">email by computer</c>
+		<c num = "4" type="xs:integer">she didn’t communicate with hearing people</c>
+	</question>
+	<question quest="According to the story, which happened first?" ans = "3" type="xs:integer">
+		<c num = "1" type="xs:integer">Laura’s family moved to St. Louis.</c>
+		<c num = "2" type="xs:integer">Laura became deaf.</c>
+		<c num = "3" type="xs:integer">Laura lived in Somerset County.</c>
+		<c num = "4" type="xs:integer">Laura enrolled at a school for the deaf.</c>
+	</question>
+	<question quest="How did Laura support her family? " ans = "1" type="xs:integer">
+		<c num = "1" type="xs:integer">She wrote short stories and poems for newspapers and magazines.</c>
+		<c num = "2" type="xs:integer">She taught at a school for the deaf.</c>
+		<c num = "3" type="xs:integer">She weaved cloth out of the fibers of cotton.</c>
+		<c num = "4" type="xs:integer">She made pottery and smelt iron in her home.</c>
+	</question>
+	<question quest="What did Laura NOT do in the City of Washington?" ans = "4" type="xs:integer">
+		<c num = "1" type="xs:integer">She interacted with politicians and generals in parties</c>
+		<c num = "2" type="xs:integer">She observed battles through a telescope from the roof of a building.</c>
+		<c num = "3" type="xs:integer">She wrote articles for a St. Louis newspaper.</c>
+		<c num = "4" type="xs:integer">She attended classes at a National College for the Mutes.</c>
+	</question>
+	<question quest="Traveling from Maryland to Missouri meant Laura had to travel __________." ans = "4" type="xs:integer">
+		<c num = "1" type="xs:integer">north</c>
+		<c num = "2" type="xs:integer">south</c>
+		<c num = "3" type="xs:integer">east</c>
+		<c num = "4" type="xs:integer">west</c>
+	</question>
+	<question quest="How did Laura communicate with a newspaper when she was out of state?" ans = "2" type="xs:integer">
+		<c num = "1" type="xs:integer">They didn’t communicate while she was gone.</c>
+		<c num = "2" type="xs:integer">mail and telegraph</c>
+		<c num = "3" type="xs:integer">pony express</c>
+		<c num = "4" type="xs:integer">telephone</c>
+	</question>
+	<question quest="Based on the story Laura was a valedictorian at her graduation ceremony. Why was she chosen?" ans = "4" type="xs:integer">
+		<c num = "1" type="xs:integer">She liked to take care of animals.</c>
+		<c num = "2" type="xs:integer">She was selected from her graduating class randomly.</c>
+		<c num = "3" type="xs:integer">She was the oldest student in her class.</c>
+		<c num = "4" type="xs:integer">She had the top academic performance.</c>
+	</question>
+	<question quest="In Missouri School for the Deaf, Laura spoke:" ans = "3" type="xs:integer">
+		<c num = "1" type="xs:integer">English only</c>
+		<c num = "2" type="xs:integer">English and the manual alphabet</c>
+		<c num = "3" type="xs:integer">ASL and English</c>
+		<c num = "4" type="xs:integer">ASL only</c>
+	</question>
+	<question quest="After graduation, she gained employment at which newspaper" ans = "2" type="xs:integer">
+		<c num = "1" type="xs:integer">USA Today</c>
+		<c num = "2" type="xs:integer">St. Louis Presbyterian</c>
+		<c num = "3" type="xs:integer">St. Louis Arch</c>
+		<c num = "4" type="xs:integer">The Washington Post</c>
+	</question>
+	<question quest="Where was Laura born?" ans = "1" type="xs:integer">
+		<c num = "1" type="xs:integer">Somerset County, MD</c>
+		<c num = "2" type="xs:integer">St. Louis, MO</c>
+		<c num = "3" type="xs:integer">Glyndon, MN</c>
+		<c num = "4" type="xs:integer">Washington, DC</c>
+	</question>
+	<question quest="How old was Laura when she gave a valedictory speech?" ans = "2" type="xs:integer">
+		<c num = "1" type="xs:integer">17</c>
+		<c num = "2" type="xs:integer">19</c>
+		<c num = "3" type="xs:integer">21</c>
+		<c num = "4" type="xs:integer">23</c>
+	</question>
+	<question quest="According to the story, why did Laura write under a male pen name, Howard Glyndon?" ans = "2" type="xs:integer">
+		<c num = "1" type="xs:integer">She became deaf and wanted to have a different name.</c>
+		<c num = "2" type="xs:integer">Publishing companies did not accept written entries from women.</c>
+		<c num = "3" type="xs:integer">Her parents wanted her to use a different identity to protect herself.</c>
+		<c num = "4" type="xs:integer">The name Howard was popular at the time.</c>
+	</question>
+</questions>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+	<question quest="Demo Question" ans = "2" type="xs:integer">
+		<c num = "1" type="xs:integer">wrong</c>
+		<c num = "2" type="xs:integer">right</c>
+		<c num = "3" type="xs:integer">wrong</c>
+		<c num = "4" type="xs:integer">wrong</c>
+	</question>
+	<question quest="Second Question" ans = "4" type="xs:integer">
+		<c num = "1" type="xs:integer">wrong</c>
+		<c num = "2" type="xs:integer">wrong</c>
+		<c num = "3" type="xs:integer">wrong</c>
+		<c num = "4" type="xs:integer">right</c>
+	</question>
+</questions>

@@ -1,0 +1,3 @@
+Soldier;Hello, Laura;0;C
+Soldier;Welcome to Washington DC, the Nations Capitol;0;C;
+Player;Return To Camp:scene,Washington

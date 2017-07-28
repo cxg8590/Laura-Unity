@@ -1,0 +1,263 @@
+fileFormatVersion: 2
+guid: d7f92c81217678f478579efb59c234ed
+timeCreated: 1466619941
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: civil war soldier spritesheet-01_0
+    21300002: civil war soldier spritesheet-01_1
+    21300004: civil war soldier spritesheet-01_2
+    21300006: civil war soldier spritesheet-01_3
+    21300008: civil war soldier spritesheet-01_4
+    21300010: civil war soldier spritesheet-01_5
+    21300012: civil war soldier spritesheet-01_6
+    21300014: civil war soldier spritesheet-01_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 400
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: civil war soldier spritesheet-01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1666.625
+        height: 2500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 107, y: -127}
+        - {x: 121, y: -77}
+        - {x: 121, y: 72}
+        - {x: 55, y: 185}
+        - {x: -39, y: 185}
+        - {x: -54, y: 153}
+        - {x: -87, y: -8}
+        - {x: -87, y: -178}
+        - {x: 25, y: -178}
+        - {x: 121, y: -146}
+        - {x: 121, y: -129}
+        - {x: 118, y: -125}
+    - name: civil war soldier spritesheet-01_1
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 0
+        width: 1666.625
+        height: 2500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65.39761, y: -58}
+        - {x: 109.39761, y: -1}
+        - {x: 112.39761, y: 13}
+        - {x: 113.39761, y: 17}
+        - {x: 108.39761, y: 24}
+        - {x: 53.397614, y: 164}
+        - {x: 32.397614, y: 185}
+        - {x: -17.602386, y: 185}
+        - {x: -48.602386, y: 78}
+        - {x: -74.60239, y: -17}
+        - {x: -53.602386, y: -51}
+        - {x: -96.60239, y: -118}
+        - {x: -96.60239, y: -142}
+        - {x: -87.60239, y: -166}
+        - {x: 58.397614, y: -166}
+        - {x: 87.39761, y: -161}
+        - {x: 90.39761, y: -157}
+        - {x: 91.39761, y: -149}
+        - {x: 75.39761, y: -72}
+    - name: civil war soldier spritesheet-01_2
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 0
+        width: 1666.625
+        height: 2500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.704773, y: 185}
+        - {x: -43.704773, y: 100}
+        - {x: -63.704773, y: -68}
+        - {x: -112.70477, y: -102}
+        - {x: -112.70477, y: -125}
+        - {x: -97.70477, y: -155}
+        - {x: 12.295227, y: -173}
+        - {x: 77.29523, y: -173}
+        - {x: 90.29523, y: -45}
+        - {x: 90.29523, y: 17}
+        - {x: 59.295227, y: 185}
+    - name: civil war soldier spritesheet-01_3
+      rect:
+        serializedVersion: 2
+        x: 4998
+        y: 0
+        width: 1666.625
+        height: 2500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.19281, y: -171}
+        - {x: 60.19281, y: -167}
+        - {x: 74.19281, y: -147}
+        - {x: 74.19281, y: 185}
+        - {x: 1.19281, y: 185}
+        - {x: -23.80719, y: 172}
+        - {x: -35.80719, y: 63}
+        - {x: -39.80719, y: -7}
+        - {x: -39.80719, y: -81}
+        - {x: -37.80719, y: -179}
+        - {x: -23.80719, y: -187}
+        - {x: 17.19281, y: -187}
+        - {x: 20.19281, y: -183}
+        - {x: 17.19281, y: -174}
+        - {x: -3.80719, y: -165}
+    - name: civil war soldier spritesheet-01_4
+      rect:
+        serializedVersion: 2
+        x: 6664
+        y: 0
+        width: 1666.625
+        height: 2500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 90.090454, y: 185}
+        - {x: -13.909546, y: 185}
+        - {x: -96.909546, y: 5}
+        - {x: -96.909546, y: -156}
+        - {x: -75.909546, y: -173}
+        - {x: -60.909546, y: -182}
+        - {x: -55.909546, y: -182}
+        - {x: -50.909546, y: -173}
+        - {x: 3.090454, y: -182}
+        - {x: 90.090454, y: -182}
+    - name: civil war soldier spritesheet-01_5
+      rect:
+        serializedVersion: 2
+        x: 8330
+        y: 0
+        width: 1666.625
+        height: 2500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -118.01196, y: -157}
+        - {x: -96.01196, y: -164}
+        - {x: -90.01196, y: -157}
+        - {x: -34.011963, y: -118}
+        - {x: 12.988037, y: -169}
+        - {x: 82.98804, y: -169}
+        - {x: 100.98804, y: -166}
+        - {x: 100.98804, y: 51}
+        - {x: 82.98804, y: 185}
+        - {x: -21.011963, y: 185}
+        - {x: -118.01196, y: -3}
+    - name: civil war soldier spritesheet-01_6
+      rect:
+        serializedVersion: 2
+        x: 9996
+        y: 0
+        width: 1666.625
+        height: 2500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79.88562, y: -70}
+        - {x: 79.88562, y: 46}
+        - {x: 57.88562, y: 169}
+        - {x: 27.88562, y: 185}
+        - {x: -4.11438, y: 185}
+        - {x: -17.11438, y: 163}
+        - {x: -40.11438, y: 61}
+        - {x: -91.11438, y: -81}
+        - {x: -91.11438, y: -151}
+        - {x: -70.11438, y: -173}
+        - {x: -62.11438, y: -171}
+        - {x: -60.11438, y: -162}
+        - {x: 22.88562, y: -173}
+        - {x: 42.88562, y: -175}
+        - {x: 63.88562, y: -175}
+        - {x: 66.88562, y: -172}
+        - {x: 66.88562, y: -166}
+        - {x: 64.88562, y: -164}
+    - name: civil war soldier spritesheet-01_7
+      rect:
+        serializedVersion: 2
+        x: 11662
+        y: 0
+        width: 1666.625
+        height: 2500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.783325, y: -168}
+        - {x: 62.783325, y: -104}
+        - {x: 62.783325, y: 20}
+        - {x: 50.783325, y: 164}
+        - {x: 35.783325, y: 185}
+        - {x: -7.216675, y: 185}
+        - {x: -47.216675, y: 181}
+        - {x: -52.216675, y: 115}
+        - {x: -52.216675, y: -181}
+        - {x: -16.216675, y: -181}
+        - {x: -9.216675, y: -177}
+        - {x: -11.216675, y: -173}
+        - {x: -3.2166748, y: -181}
+        - {x: 54.783325, y: -181}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

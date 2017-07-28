@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene>
+	<level lv = "1" type="xs:integer">
+		<text>Lorem ipsum dolor sit amet, *1 consectetur adipiscing elit. Etiam at mollis eros. Proin pretium felis nec lorem luctus venenatis.Fusce dictum justo vel dolor pulvinar blandit. Proin *2 eu metus at sapien placerat volutpat ac nec nisi. Donec semper placerat pretium. Phasellus a neque ullamcorper, tincidunt orci eget, tincidunt lacus. Fusce a lectus vitae lorem tincidunt accumsan eu eget dui. Aenean a tellus non *3 odio aliquam finibus feugiat vel purus. Integer quis tempor justo. Quisque gravida vitae dui maximus rutrum. Nam turpis massa, sodales id iaculis ut, ornare id elit. Ut gravida lectus sed purus ullamcorper, et facilisis neque pretium. Sed aliquam *4 tincidunt pulvinar. Nam congue felis vel nunc venenatis, nec pulvinar nunc lobortis.</text>
+		<words>correct1,correct2,correct3,correct4,wrong,wrong,wrong</words>
+	</level>
+</Scene>
