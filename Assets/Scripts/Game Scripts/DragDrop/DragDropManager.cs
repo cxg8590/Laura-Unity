@@ -68,13 +68,14 @@ public class DragDropManager : MonoBehaviour {
 
             else if (e.GetComponent<emptyGrass>().occupant.GetComponent<ClickDrag>().station) // is it a station
             {
-                if(track == 1 && e.GetComponent<emptyGrass>().occupant.GetComponent<ClickDrag>().leadIn) //is it the right station
+				Debug.Log ("track = " + track);
+				if(track == 1 && e.GetComponent<emptyGrass>().occupant.GetComponent<ClickDrag>().leadIn) //is it the right station
                 {
                     track = 2;//change the track type
                     correct = true;
                     last = e;
                 }
-                else if(track == 2 && !e.GetComponent<emptyGrass>().occupant.GetComponent<ClickDrag>().leadIn)//is it the right station
+				else if(track == 2 && !e.GetComponent<emptyGrass>().occupant.GetComponent<ClickDrag>().leadIn)//is it the right station
                 {
                     track = 1;//change the track type
                     correct = true;

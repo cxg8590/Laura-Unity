@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 using UnityStandardAssets.ImageEffects;
 
@@ -31,4 +31,4 @@ public class VHSPostProcessEffect : PostEffectsBase {
 		m.SetFloat("_xScanline", xScanline);
 		Graphics.Blit(source, destination, m);
 	}
-}
+}*/
