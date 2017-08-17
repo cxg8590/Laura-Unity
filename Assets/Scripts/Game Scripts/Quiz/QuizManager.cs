@@ -23,6 +23,8 @@ public class QuizManager : MonoBehaviour {
     int curQuestion; // number of current question
     int correct; //did they answer correctly (0 = no answer; 1 = correct; 2 = incorrect)
 
+    bool answering = false; //is the question being answered
+
 	// Use this for initialization
 	void Start () {
         xml = new QuestionXML();
@@ -36,9 +38,15 @@ public class QuizManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	    if(correct == 1)
+        if (correct != 0 && !answering) checkAnswer(); //check answer if input put in and it's not already answering
+	}
+
+    public void checkAnswer()
+    {
+        answering = true; //will not keep checking answer
+        if (correct == 1)
         {
-            Progress.GetComponent<progressBar>().addAmount(1f/5f);
+            Progress.GetComponent<progressBar>().addAmount(1f / 5f);
             Instantiate(good, new Vector3(0, 0, 0), Quaternion.identity);
             if (Progress.GetComponent<Image>().fillAmount == 1.0f)
             {
@@ -53,21 +61,23 @@ public class QuizManager : MonoBehaviour {
                 StartCoroutine(nextQuestion());
             }
         }
-        if(correct == 2)
+        if (correct == 2)
         {
             Instantiate(wrong, new Vector3(0, 0, 0), Quaternion.identity);
             Progress.GetComponent<progressBar>().addAmount(-1f / 5f);
-            questBox.text = "Wrong";
+            //questBox.text = "Wrong";
             /*int nextQ = Random.Range(0, numQuests);
             loadQuestion(nextQ);*/
             StartCoroutine(nextQuestion());
         }
-	}
+    }
+
     IEnumerator nextQuestion()
     {
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(0.95f);
         int nextQ = Random.Range(0, numQuests);
         loadQuestion(nextQ);
+        answering = false;
     }
 
     void loadQuestion(int qNum)

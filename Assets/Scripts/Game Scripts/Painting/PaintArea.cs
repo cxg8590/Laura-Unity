@@ -24,7 +24,7 @@ public class PaintArea : MonoBehaviour {
 
     public void onClick()
     {
-        Debug.Log("clicked");
+        Debug.Log("clicked color: " + currentColor);
         if (currentColor == color)
         {
             GetComponent<Image>().material = null;

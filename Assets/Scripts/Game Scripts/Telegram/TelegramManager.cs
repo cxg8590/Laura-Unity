@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.EventSystems;
 
 public class TelegramManager : MonoBehaviour {
     public GameObject canvas;
@@ -38,6 +39,7 @@ public class TelegramManager : MonoBehaviour {
     float level;
 
     public Image greyOut;
+    
 
     // Use this for initialization
     void Start () {
@@ -70,14 +72,13 @@ public class TelegramManager : MonoBehaviour {
             if(current >= length)
             {
                 //when you win a round, the progress bar goes up relative to how many where in the sequence
-                StartCoroutine(WinLoose(true));
-                playing = false;
                 Lincoln.GetComponent<progressBar>().addAmount(length
-                    /level);
+                    / level);
                 //it then increases the length and starts over
                 length++;
-                updateProgressDots();
-                populate();
+                StartCoroutine(WinLoose(true));
+                
+                
             }
         }
         if (Lincoln.GetComponent<Image>().fillAmount == 1.0f)
@@ -148,11 +149,7 @@ public class TelegramManager : MonoBehaviour {
     IEnumerator playThrough()
     {
         playing = false;
-        for (int i = 0; i < Lights.Length; i++)
-        {
-            Lights[i].sprite = off[i];
-        }
-        greyOut.enabled = true;
+        greyout();
         //play through the list of images
         for (int i = 0; i < length; i++)
         {
@@ -178,11 +175,8 @@ public class TelegramManager : MonoBehaviour {
             }
             else
             {
-                StartCoroutine(WinLoose(false));
                 length = 1;//sets your length back to one
-                playing = false; //you are no longer playing
-                updateProgressDots();
-                populate();//starts the game over
+                StartCoroutine(WinLoose(false));
             }
         }
     }
@@ -195,27 +189,23 @@ public class TelegramManager : MonoBehaviour {
 
     IEnumerator WinLoose(bool cr)
     {
+        playing = false; //you are no longer playing
+        greyout(); //greyout everything
         if (cr)
         {
-            //win.sprite = correct;
             Debug.Log("winLoose win");
-            //winLose = goodJob;// Instantiate(goodJob, new Vector3(0, 0, 0), Quaternion.identity) as GameObject
             Instantiate(goodJob, new Vector3(0, -1, 0), Quaternion.identity);
-            //GameObject gj = Instantiate(goodJob, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
-            //gj.transform.SetParent(canvas.transform);
-            yield return new WaitForSeconds(.25f);
-            
+            yield return new WaitForSeconds(2.4f);
+
         }
         else
         {
-            //win.sprite = wrong;
             Debug.Log("winLoose lose");
-            //winLose = tryAgain;
             Instantiate(tryAgain, new Vector3(0, -1, 0), Quaternion.identity);
-            //GameObject ta = Instantiate(tryAgain, new Vector3(0, 0, 0), Quaternion.identity) as GameObject;
-            //ta.transform.SetParent(canvas.transform);
-            yield return new WaitForSeconds(.25f);
+            yield return new WaitForSeconds(2f);
         }
+        updateProgressDots();
+        populate();
     }
 
     void victory()
@@ -264,6 +254,16 @@ public class TelegramManager : MonoBehaviour {
     {
         return playing;
     }
+    public void greyout()
+    {
+        Debug.Log("Greyout");
+        greyOut.enabled = true;
+        for (int i = 0; i < 5; i++)
+        {
+            buttons[i].image.sprite = off[i];
+        }
+    }
+
 
     /*IEnumerator wait(float waitTime)
     {

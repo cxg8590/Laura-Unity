@@ -1,4 +1,4 @@
-﻿/*using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class Autoplay : MonoBehaviour {
@@ -17,4 +17,3 @@ public class Autoplay : MonoBehaviour {
 	
 	}
 }
-*/

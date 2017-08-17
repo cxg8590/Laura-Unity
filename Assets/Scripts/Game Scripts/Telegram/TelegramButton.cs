@@ -19,12 +19,15 @@ public class TelegramButton : MonoBehaviour, IPointerDownHandler, IPointerUpHand
     public void OnPointerDown(PointerEventData eventData)
     {
         pressed = true;
-
+        lightBulb.sprite = onLight;
+        lever.sprite = upImage;
         Debug.Log(this.gameObject.name + " Was down.");
     }
     public void OnPointerUp(PointerEventData eventData)
     {
         pressed = false;
+        lightBulb.sprite = offLight;
+        lever.sprite = downImage;
         Debug.Log(this.gameObject.name + " Was up.");
     }
 
@@ -35,19 +38,6 @@ public class TelegramButton : MonoBehaviour, IPointerDownHandler, IPointerUpHand
 	
 	// Update is called once per frame
 	void Update () {
-        playing = manager.GetComponent<TelegramManager>().getPlaying();
-        if (playing)
-        {
-            if (pressed)
-            {
-                lightBulb.sprite = onLight;
-                lever.sprite = upImage;
-            }
-            else
-            {
-                lightBulb.sprite = offLight;
-                lever.sprite = downImage;
-            }
-        }
+        
 	}
 }

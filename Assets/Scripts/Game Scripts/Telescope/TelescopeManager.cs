@@ -7,6 +7,7 @@ public class TelescopeManager : MonoBehaviour {
     public GameObject[] level;
     public GameObject[] unfound;
     public GameObject[] objects;
+    public GameObject[] extras;
 
     private int lv;
 
@@ -16,6 +17,7 @@ public class TelescopeManager : MonoBehaviour {
 
         level[lv].SetActive(true);
         unfound[lv].SetActive(true);
+        extras[lv].SetActive(true);
 
         objects = new GameObject[level[lv].transform.childCount];
         for (int i = 0; i < objects.Length; i++)
@@ -46,14 +48,25 @@ public class TelescopeManager : MonoBehaviour {
 
     void Win()
     {
+        Debug.Log("lv: " + lv);
         level[lv].SetActive(false);
         unfound[lv].SetActive(false);
+        extras[lv].SetActive(true);
 
-        if(lv < unfound.Length)
+        if (lv < unfound.Length)
         {
             lv++;
             level[lv].SetActive(true);
             unfound[lv].SetActive(true);
+            extras[lv].SetActive(true);
+
+            objects = new GameObject[level[lv].transform.childCount];
+            for (int i = 0; i < objects.Length; i++)
+            {
+                objects[i] = level[lv].transform.GetChild(i).gameObject;
+                Debug.Log("Object Names: "+objects[i].name);
+            }
+
         }
         else
         {

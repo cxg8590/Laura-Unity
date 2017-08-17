@@ -32,3 +32,11 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Laura Demo/
+Assets/Media/Telegram/final video with rules.mov
+Assets/Media/Telegram/final video with rules.mov.meta
+Assets/Animations/final video with rules.mov.meta
+Assets/Animations/final video with rules.mov
+android/LauraUnityGradle/Laura Game/src/main/res/values-v21/styles.xml
+android/
+Laura Demo.zip

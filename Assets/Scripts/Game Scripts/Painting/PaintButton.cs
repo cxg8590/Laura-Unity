@@ -9,8 +9,8 @@ public class PaintButton : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        GetComponent<Image>().alphaHitTestMinimumThreshold = 0.5f;
-        Debug.Log(name + " alpha: "+ GetComponent<Image>().color.a);
+        //GetComponent<Image>().alphaHitTestMinimumThreshold = 0.5f;
+        //Debug.Log(name + " alpha: "+ GetComponent<Image>().color.a);
     }
 	
 	// Update is called once per frame
